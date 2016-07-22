@@ -13,6 +13,7 @@
         }
     ],
     "require": {
+        "ext-mbstring": "*",
         "predis/predis": "1.0.3"
     },
     "minimum-stability": "stable",
