@@ -1,0 +1,11 @@
+---
+applications:
+- name: phpredisadmin
+  memory: 128M 
+  instances: 1
+  host: jmnote-redis
+  path: .
+  buildpack: https://github.com/cloudfoundry/php-buildpack.git
+  services:
+  - myredis1
+  
