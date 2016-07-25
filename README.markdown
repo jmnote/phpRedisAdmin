@@ -11,7 +11,7 @@ Installation
 Just 5 steps:
 
  1. Clone this app. `git clone https://github.com/jmnote/phpRedisAdmin-cf.git`
- 2. Go inside the folder and run `cf phpRedisAdmin-cf && cf push`
+ 2. Go inside the folder and run `cf push`
  3. Bind your redis service with `cf bs phpredisadmin <service_name>` and repeat for all redis services you want in your phpRedisAdmin
  4. Restage the service with `cf restage phpredisadmin` 
  5. Get service name & password for login phpredisadmin-cf: `cf env <app_name>` and you're done.
