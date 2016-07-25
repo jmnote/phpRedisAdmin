@@ -16,9 +16,6 @@ foreach($vcap_services as $service_provider => $service_list) {
 				'host' => $host,
 				'port' => $service['credentials']['port'],
 				'auth' => $service['credentials']['password'],
-				'filter' => '*',
-				'scheme' => 'tcp',
-				'path' => '',
 			);
 		}
 	}
