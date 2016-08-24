@@ -4,3 +4,5 @@ applications:
   memory: 128M 
   buildpack: https://github.com/cloudfoundry/php-buildpack.git
   host: redis-hello
+  services:
+  - myredis1
